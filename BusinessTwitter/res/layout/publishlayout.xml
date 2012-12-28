@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#E5DBCF" >
+    
+    <RelativeLayout
+        android:id="@+id/linearLayoutBarraSuperior"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/fondo_naranja" >
+        
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/twitterbird5" />
+
+        <ImageView
+            android:id="@+id/btnBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/buscar" />
+
+        <TextView
+            android:id="@+id/txtCabecera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/publicarAnuncio"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white" />
+        
+	</RelativeLayout>
+	
+    <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_margin="15dp"
+            android:background="@drawable/customborder">
+	
+	    <LinearLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">
+	        
+		   	<TextView
+	            android:id="@+id/txtAccion"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/accion"
+	            android:textAppearance="?android:attr/textAppearanceMedium" 
+	            android:layout_marginTop="15dp"/>
+	
+	        <Spinner
+	            android:id="@+id/cmbAccion"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:entries="@array/accion"/>      
+	
+	        <TextView
+	            android:id="@+id/txtTitulo"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/quieresVender"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        <EditText
+	            android:id="@+id/editTitulo"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:inputType="textMultiLine" >
+	            <requestFocus />
+	        </EditText>
+	
+	        <TextView
+	            android:id="@+id/txtDescripcion"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/describelo"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        <EditText
+	            android:id="@+id/editDescripcion"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:inputType="textMultiLine"
+	            android:singleLine="false" />
+	
+	        <TextView
+	            android:id="@+id/txtTotalLetras"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/totalLetras"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	        <LinearLayout
+	            android:id="@+id/linearLayout2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" 
+	            android:layout_marginTop="5dp"
+	            android:layout_gravity="center_horizontal|center_vertical">
+	            
+	            <LinearLayout
+	            android:id="@+id/linearLayout2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical" 
+	            android:layout_gravity="center_horizontal|center_vertical">
+	            
+	            <ImageView
+	                android:src="@drawable/galeria_blanca"
+		            android:id="@+id/btnAnyadirFoto"
+		            android:layout_width="50dp"
+		            android:layout_height="40dp"	            
+		            android:text="@string/anyadirFoto" 
+		            android:textColor="#FFFFFF" 
+		            android:background="@drawable/borderbutton"/>
+	            
+	            <ImageView
+		            android:id="@+id/btnFotoCamara"
+		            android:layout_width="50dp"
+		            android:layout_height="40dp"	
+		            android:textColor="#FFFFFF"             
+		            android:text="@string/anyadirFotoCamara" 
+		            android:background="@drawable/borderbutton"
+		            android:layout_marginTop="5dp"
+		            android:src="@drawable/camara_blanca"/>
+	            
+	            </LinearLayout>
+	            
+	            <ImageView 
+	                android:id="@+id/imagenSubida"
+	                android:background="@drawable/borderimage"
+				    android:layout_width="100dp"
+				    android:layout_height="100dp"
+				    android:layout_marginLeft="60dp"
+				    android:layout_gravity="center_vertical|center_vertical">
+				</ImageView>
+	            
+	        </LinearLayout>
+	       
+	        
+	        <LinearLayout
+	            android:id="@+id/linearLayout3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_marginTop="15dp"	            
+	            android:orientation="vertical" >	            	            
+					    		
+		        <Button
+		            android:drawableLeft="@drawable/enviar_blanca"
+		            android:id="@+id/btnPublicarAnuncio"
+		            android:layout_width="120dp"
+		            android:layout_height="40dp"
+		            android:textColor="#FFFFFF" 
+		            android:contentDescription="@string/publicar"
+		            android:text="@string/publicar" 
+		            android:background="@drawable/borderbutton"/>
+			</LinearLayout>
+	        
+		</LinearLayout>
+    
+	</ScrollView>
+    
+</LinearLayout>

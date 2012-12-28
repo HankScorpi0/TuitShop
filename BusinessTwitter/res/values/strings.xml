@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TuitShop</string>
+    <string name="buscarAnuncios">Search Articles</string>
+    <string name="tipoBusqueda">Find articles ..</string>
+    <string name="titulo">Article</string>
+    <string name="ciudad">Near ..</string>
+    <string name="buscar">Search Articles</string>
+    <string name="listaAnuncios">Articles</string>
+    <string name="busca">Search</string>
+    <string name="cargando">Loading..</string>
+    <string name="buscandoAnuncios">Looking Articles</string>
+    <string name="detalle">Product detail</string>
+    <string name="usarLocalizacion">Does using your location?</string>
+    <string name="conLinks">With links + info?</string>
+    <string name="publicarAnuncio">Post your ad</string>
+    <string name="quieresVender">What do you want to sell / rent?</string>
+    <string name="describelo">Describe</string>
+    <string name="totalLetras">Total</string>
+    <string name="publicar">Publish</string>
+    <string name="anyadirFoto">Gallery</string>
+    <string name="anyadirFotoCamara">Camera</string>
+    <string name="mensajePrivado">Private message</string>
+    <string name="enviar">Send Message</string>
+    <string name="empty">No results</string>
+    <string name="tweetmax140">You can not send the tweet, exceeds the maximum of 140 characters</string>
+    <string name="publicandoTweet">Postings Tweet</string>
+    <string name="tweetPublicado">Tweet published successfully</string>
+    <string name="errPublicarTweet">Error in publishing the tweet</string>
+    <string name="accion">What do you do?</string>
+    
+    <string-array name="tipos">
+        <item name="1">On Sale</item>
+        <item name="2">He Buys</item>
+        <item name="3">Rental</item>
+    </string-array>
+    
+    <string-array name="accion">
+        <item name="1">#On Sale</item>
+        <item name="2">#He Buys</item>
+        <item name="3">#Rent</item>
+    </string-array>
+
+</resources>

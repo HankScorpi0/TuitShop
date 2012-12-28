@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="businessTwitter.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application android:name=".BusinessTwitterApplication"
+        android:icon="@drawable/twitterbird5"
+        android:theme="@android:style/Theme.Light"      
+        android:label="@string/app_name" >
+        
+        <activity
+            android:name=".BusinessTwitterActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+	            <category android:name="android.intent.category.DEFAULT"/>
+	            <action android:name="businessTwitter.android.VIEW_SEARCH"/>
+	        </intent-filter>
+        </activity>
+        
+        <activity android:name=".BusinessTwitterListActivity" 
+            android:label="@string/app_name">
+	        <intent-filter>
+	            <category android:name="android.intent.category.DEFAULT"/>
+	            <action android:name="businessTwitter.android.VIEW_LIST"/>
+	        </intent-filter>
+	    </activity>
+    
+         <activity android:name=".BusinessTwitterDetailActivity" 
+             android:label="@string/app_name"
+             android:windowSoftInputMode="stateHidden|adjustPan">
+	        <intent-filter>
+	            <category android:name="android.intent.category.DEFAULT"/>
+	            <action android:name="businessTwitter.android.VIEW_DETAIL"/>
+	        </intent-filter>
+	        <intent-filter>
+	            <data android:scheme="http" />
+	            <action android:name="android.intent.action.VIEW" />
+	        </intent-filter>
+	    </activity>
+	    
+         <activity android:name=".BusinessTwitterPublishActivity" 
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden|adjustPan">
+	        <intent-filter>
+	            <category android:name="android.intent.category.DEFAULT"/>
+	            <action android:name="businessTwitter.android.VIEW_PUBLISH"/>
+	        </intent-filter>
+	    </activity>
+	    
+         <activity android:name=".WebActivity" 
+            android:label="@string/app_name">
+	        <intent-filter>
+	            <category android:name="android.intent.category.DEFAULT"/>
+	            <action android:name="businessTwitter.android.VIEW_WEB"/>
+	        </intent-filter>
+	    </activity>
+	    
+    </application>
+    
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+</manifest>
