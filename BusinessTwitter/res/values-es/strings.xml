@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TuitShop</string>
+    <string name="buscarAnuncios">Buscar Artículos</string>
+    <string name="tipoBusqueda">Buscar artículos en..</string>
+    <string name="titulo">Artículo</string>
+    <string name="ciudad">Cerca de..</string>
+    <string name="buscar">Buscar Artículos</string>
+    <string name="listaAnuncios">Artículos</string>
+    <string name="busca">Buscar</string>
+    <string name="cargando">Cargando..</string>
+    <string name="buscandoAnuncios">Buscando Artículos</string>
+    <string name="detalle">Detalle Artículo</string>
+    <string name="usarLocalizacion">¿Usar tú localización?</string>
+    <string name="conLinks">¿Con links + info?</string>
+    <string name="publicarAnuncio">Publica tu anuncio</string>
+    <string name="quieresVender">¿Qué quieres vender/alquilar?</string>
+    <string name="describelo">Descríbelo</string>
+    <string name="totalLetras">Total</string>
+    <string name="publicar">Publicar</string>
+    <string name="anyadirFoto">Galería</string>
+    <string name="anyadirFotoCamara">Cámara</string>
+    <string name="mensajePrivado">Mensaje privado</string>
+    <string name="enviar">Enviar Mensaje</string>
+    <string name="empty">Sin resultados</string>
+    <string name="tweetmax140">No puede enviar el tweet, supera el máximo de 140 caracteres</string>
+    <string name="publicandoTweet">Publicando Tweet</string>
+    <string name="tweetPublicado">Tweet publicado correctamente</string>
+    <string name="errPublicarTweet">Error en la publicación del tweet</string>
+    <string name="accion">¿Qué quieres hacer?</string>
+    
+    <string-array name="tipos">
+        <item name="1">En venta</item>
+        <item name="2">Se compra</item>
+        <item name="3">Alquiler</item>
+    </string-array>
+    
+    <string-array name="accion">
+        <item name="1">#Vendo</item>
+        <item name="2">#Compro</item>
+        <item name="3">#Alquilo</item>
+    </string-array>
+
+</resources>
