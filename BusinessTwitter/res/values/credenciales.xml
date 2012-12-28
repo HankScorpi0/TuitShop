@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    
-    <string name="consumerKey">fePfTWRHIA0WqX5bSxXMnA</string>
-    <string name="consumerSecret">JfW62DIeBhFv6BRQmbfhPAPNygsQkqHK6J3zDdWWQ</string>
-    <string name="CALLBACKURL">myapp://BusinessTwitterPublishActivity</string>
-    <string name="API_TWITPIC">532a80c08eb09019e22ab67e5fab79a6</string>
-    
-</resources>
