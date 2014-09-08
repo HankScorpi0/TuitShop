@@ -1,7 +1,6 @@
 TuitShop
 ========
 
-TuitShop - Aplicación Android con integración con Twitter (buscador y envío de tweets) relacionado con la venta y compra de artículos
+TuitShop - Android App with Twitter integration. You can search items that the people want buy/sell.
 
-https://play.google.com/store/apps/details?id=businessTwitterFree.android
  
